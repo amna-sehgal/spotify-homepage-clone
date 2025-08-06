@@ -56,7 +56,6 @@ spotify-homepage-clone/
 
 ## 📧 Connect with Me
 - GitHub: [amna-sehgal](https://github.com/amna-sehgal)
-- LinkedIn: [Your LinkedIn](www.linkedin.com/in/amnasehgal)
 
 ---
 
