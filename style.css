@@ -135,6 +135,7 @@ a{
   opacity: 0.9;
 }
 .badge{
+  cursor: pointer;
   background-color: white;
   border: none;
   border-radius: 100px;
@@ -165,6 +166,7 @@ a{
   margin-right: 1.5rem;
 }
 .badge1{
+  cursor: pointer;
   background-color: #000;
   color: white;
   border: none;
