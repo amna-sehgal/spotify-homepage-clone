@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Spotify: Web player music for everyone </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="option1" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="option1">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="option2">
+                        <i class="fa-solid fa-book-open"></i>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="para1">Create your first playlist</p>
+                    <p class="para2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="box1">
+                    <p class="para3">Let's find some podcasts to follow</p>
+                    <p class="para4">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="snav">
+                <div class="opt">
+                    <img src="backward_icon.png" />
+                    <img src="forward_icon.png" class="hide" />
+                </div>
+                <div class="icon">
+                    <button class="badge hide">Explore premium</button>
+                    <button class="badge1"><i class="fa-solid fa-circle-down" style="margin-right: 5px;"></i>Install
+                        app</button>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <h2>Recently Played</h2>
+            <div class="card">
+                <img src="card1img.jpeg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Top 50-Global</h5>
+                    <p class="card-text">Your daily updates of the most played tracks right..</p>
+                </div>
+            </div>
+            <h2>Trending now near you</h2>
+            <div class="cardcontain">
+                <div class="card">
+                    <img src="card2img.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Top 50-Global</h5>
+                        <p class="card-text">Your daily updates of the most played tracks right..</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="card3img.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Top 50-Global</h5>
+                        <p class="card-text">Your daily updates of the most played tracks right..</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="card4img.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Top 50-Global</h5>
+                        <p class="card-text">Your daily updates of the most played tracks right..</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="card5img.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Top 50-Global</h5>
+                        <p class="card-text">Your daily updates of the most played tracks right..</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Top 50-Global</h5>
+                        <p class="card-text">Your daily updates of the most played tracks right..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line">
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="album">
+                <div class="image">
+                    <img src="aaron-burden-U53tH5NJG7o-unsplash.jpg" class="image" />
+                </div>
+                <div class="text">
+                    <p class="p1"><b>Daylight</b></p>
+                    <p class="p2">David Kushner</p>
+                </div>
+                <div class="ic">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-tablet-screen-button"></i>
+                </div>
+
+            </div>
+            <div class="player">
+                <div class="pc">
+                    <img src="player_icon1.png" class="i1">
+                    <img src="player_icon2.png" class="i1">
+                    <img src="player_icon3.png" class="i2">
+                    <img src="player_icon4.png" class="i1">
+                    <img src="player_icon5.png" class="i1">
+                </div>
+                <div class="pb">
+                    <span class="time">0:00</span>
+                    <input type="range" min="0" max="100" class="progress">
+                    <span class="time1">3:33</span>
+                </div>
+            </div>
+            <div class="control">
+                <div class="i">
+                    <div class="i3">
+                        <i class="fa-solid fa-square-caret-right"></i>
+                    </div>
+                    <div class="i4">
+                        <i class="fa-solid fa-microphone"></i>
+                    </div>
+                    <div class="i5">
+                        <i class="fa-solid fa-chart-bar"></i>
+                    </div>
+                    <div class="i6">
+                        <i class="fa-solid fa-headphones"></i>
+                    </div>
+                    <div class="i7">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </div> 
+                    <input type="range" min="0" max="100" class="prog">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
