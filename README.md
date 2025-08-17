@@ -6,7 +6,6 @@ A clean **Spotify Homepage Clone** built with **HTML5** and **CSS3**. This proje
 ---
 
 ## 📸 Preview
-<!-- Upload a screenshot and replace # with the image link -->
 ![Spotify Homepage Screenshot](Screenshot%202025-08-06%20155934.png)
 ![Spotify Homepage Screenshot](Screenshot%202025-08-06%20155950.png)
 
