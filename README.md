@@ -27,7 +27,7 @@ A clean **Spotify Homepage Clone** built with **HTML5** and **CSS3**. This proje
 ## 📂 Folder Structure
 spotify-homepage-clone/
 │
-├── spotify clone project.html
+├── index.html
 ├── style.css
 └── images/
 
@@ -42,7 +42,7 @@ spotify-homepage-clone/
     ```bash
     cd spotify-homepage-clone
     ```
-3. Open `spotity clone project.html` in your browser.
+3. Open `index.html` in your browser.
 
 ---
 
